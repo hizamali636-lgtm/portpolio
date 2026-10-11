@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Hizam Ali — Full Stack Developer Portfolio" />
+  <title>Hizam Ali | Full Stack Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="header" id="top">
+    <div class="container nav-wrap">
+      <a class="logo" href="#home"><span>HA</span> MY STORY</a>
+
+      <button class="menu-toggle" aria-label="Open menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <nav class="nav">
+        <a href="#home" class="active">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#services">SERVICES</a>
+        <a href="#portfolio">WORK</a>
+        <a href="#resume">RESUME</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="icon-btn" id="searchBtn" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <a href="#contact" class="btn btn-red">LET'S TALK <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= HERO ================= -->
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-grid container">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span> FULL STACK DEVELOPER</p>
+          <h1>HIZAM<br><strong>ALI</strong></h1>
+          <h2>FULL STACK DEVELOPER</h2>
+          <p class="hero-text">
+            I build modern, responsive and user-focused web applications using
+            HTML, CSS, JavaScript, React, Next.js, Node.js, MongoDB and SQL.
+          </p>
+
+          <div class="hero-meta">
+            <div><b>Focus:</b> Web Development</div>
+            <div><b>Role:</b> Full Stack Developer Intern</div>
+            <div><b>Company:</b> Digital Hujra</div>
+          </div>
+
+          <div class="hero-buttons">
+            <a href="#portfolio" class="btn btn-red">VIEW MY WORK <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#contact" class="round-btn" aria-label="Contact"><i class="fa-solid fa-arrow-down"></i></a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="hero-glow"></div>
+          <div class="portrait-card">
+            <img src="profile.png" alt="Hizam Ali">
+          </div>
+          <div class="vertical-text">CREATIVE • CODE • DIGITAL • EXPERIENCE</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TICKER ================= -->
+    <section class="ticker">
+      <div class="ticker-track">
+        <span>✳ BRANDING</span><span>✳ UI/UX DESIGN</span><span>✳ WEB DEVELOPMENT</span>
+        <span>✳ LANDING PAGE</span><span>✳ RESPONSIVE DESIGN</span><span>✳ FULL STACK</span>
+        <span>✳ BRANDING</span><span>✳ UI/UX DESIGN</span><span>✳ WEB DEVELOPMENT</span>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div class="about-stats reveal">
+          <div class="stat-image">
+            <div class="code-box">
+              <span>&lt;/&gt;</span>
+              <small>BUILDING<br>BETTER WEB</small>
+            </div>
+          </div>
+
+          <div class="stats-row">
+            <div class="stat">
+              <strong data-counter="50">0</strong><span>+</span>
+              <p>PROJECTS<br>COMPLETED</p>
+            </div>
+            <div class="stat">
+              <strong data-counter="25">0</strong><span>+</span>
+              <p>HAPPY<br>CLIENTS</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-copy reveal">
+          <p class="eyebrow">WHO AM I?</p>
+          <h2>TURNING IDEAS INTO <span>DIGITAL EXPERIENCES.</span></h2>
+          <p>
+            I am Hizam Ali, a Full Stack Developer focused on creating clean,
+            responsive and practical digital products. I enjoy converting ideas
+            into functional interfaces and complete web applications.
+          </p>
+          <p>
+            My development stack includes HTML, CSS, JavaScript, React, Next.js,
+            Node.js, MongoDB and SQL. I am currently developing my professional
+            experience as a Full Stack Developer Intern at Digital Hujra.
+          </p>
+
+          <ul class="about-list">
+            <li><i class="fa-solid fa-check"></i> Responsive Web Development</li>
+            <li><i class="fa-solid fa-check"></i> React & Next.js Applications</li>
+            <li><i class="fa-solid fa-check"></i> Node.js Backend Development</li>
+            <li><i class="fa-solid fa-check"></i> MongoDB & SQL Databases</li>
+            <li><i class="fa-solid fa-check"></i> Clean UI/UX Implementation</li>
+          </ul>
+
+          <a href="#contact" class="btn btn-red">CONTACT ME <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SERVICES ================= -->
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">MY SERVICES</p>
+            <h2>THE EASE-SERVICE <span>PROCESS</span></h2>
+          </div>
+          <a href="#contact" class="btn btn-outline">VIEW ALL SERVICES <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card reveal">
+            <div class="service-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+            <h3>UI/UX DESIGN</h3>
+            <p>Modern layouts and user-friendly interfaces designed for real users.</p>
+            <a href="#contact">VIEW SERVICE <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+            <h3>FRONT-END DEVELOPMENT</h3>
+            <p>Responsive and interactive websites using modern frontend technologies.</p>
+            <a href="#contact">VIEW SERVICE <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+            <h3>MOBILE FRIENDLY</h3>
+            <p>Layouts that work smoothly across phones, tablets and desktop screens.</p>
+            <a href="#contact">VIEW SERVICE <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon"><i class="fa-solid fa-laptop-code"></i></div>
+            <h3>WEB DESIGN</h3>
+            <p>Clean visual systems that combine typography, spacing and usability.</p>
+            <a href="#contact">VIEW SERVICE <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon"><i class="fa-solid fa-server"></i></div>
+            <h3>BACK-END DEVELOPMENT</h3>
+            <p>Server-side functionality and APIs using Node.js and database systems.</p>
+            <a href="#contact">VIEW SERVICE <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon"><i class="fa-solid fa-pen-nib"></i></div>
+            <h3>CONTENT & CODE</h3>
+            <p>Well-structured content and maintainable code for professional products.</p>
+            <a href="#contact">VIEW SERVICE <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PORTFOLIO ================= -->
+    <section class="section portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">MY WORK</p>
+            <h2>FEATURED <span>PORTFOLIO</span></h2>
+          </div>
+          <a href="#contact" class="btn btn-outline">VIEW ALL PROJECTS <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="portfolio-grid">
+          <article class="project-card reveal">
+            <div class="project-image project-one"><span>ECOMMERCE</span></div>
+            <div class="project-body">
+              <small>01 / WEB DEVELOPMENT</small>
+              <h3>Mobile E-Commerce Store</h3>
+              <p>Responsive product browsing and shopping experience.</p>
+              <div class="project-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image project-two"><span>DASHBOARD</span></div>
+            <div class="project-body">
+              <small>02 / WEB APP</small>
+              <h3>Admin Dashboard</h3>
+              <p>Clean dashboard interface for managing digital content.</p>
+              <div class="project-tags"><span>React</span><span>Next.js</span><span>SQL</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image project-three"><span>PORTFOLIO</span></div>
+            <div class="project-body">
+              <small>03 / PERSONAL BRAND</small>
+              <h3>Developer Portfolio</h3>
+              <p>Professional portfolio with responsive sections and animations.</p>
+              <div class="project-tags"><span>JS</span><span>React</span><span>CSS</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= RESUME ================= -->
+    <section class="section resume" id="resume">
+      <div class="container">
+        <div class="center-heading reveal">
+          <p class="eyebrow">MY RESUME</p>
+          <h2>OUR <span>RESUME</span></h2>
+        </div>
+
+        <div class="resume-grid">
+          <div class="resume-column reveal">
+            <h3>Education &gt;</h3>
+
+            <div class="timeline-item">
+              <span class="dot"></span>
+              <small>EDUCATION</small>
+              <h4>Modern Information Technology</h4>
+              <p>Focused on programming, web development and practical computer technologies.</p>
+            </div>
+
+            <div class="timeline-item">
+              <span class="dot"></span>
+              <small>LEARNING</small>
+              <h4>Developer Training System</h4>
+              <p>Continuous learning through practical projects and modern development workflows.</p>
+            </div>
+
+            <div class="timeline-item">
+              <span class="dot"></span>
+              <small>TECHNICAL SKILLS</small>
+              <h4>Full Stack Development</h4>
+              <p>Frontend, backend, APIs, databases and responsive web development.</p>
+            </div>
+          </div>
+
+          <div class="resume-column reveal">
+            <h3>Experience &gt;</h3>
+
+            <div class="timeline-item">
+              <span class="dot"></span>
+              <small>FULL STACK DEVELOPMENT</small>
+              <h4>Full Stack Developer Intern</h4>
+              <p>Digital Hujra — building and improving responsive web applications and digital products.</p>
+            </div>
+
+            <div class="timeline-item">
+              <span class="dot"></span>
+              <small>FRONT-END DEVELOPMENT</small>
+              <h4>Web Development Projects</h4>
+              <p>Created responsive websites and interactive interfaces with modern HTML, CSS and JavaScript.</p>
+            </div>
+
+            <div class="timeline-item">
+              <span class="dot"></span>
+              <small>FULL STACK</small>
+              <h4>React / Next.js / Node.js</h4>
+              <p>Working across frontend and backend technologies with MongoDB and SQL databases.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section class="section skills">
+      <div class="container skill-box reveal">
+        <div class="center-heading">
+          <p class="eyebrow">MY SKILLS</p>
+          <h2>OUR <span>SKILLS</span></h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill"><div><b>HTML</b><span>95%</span></div><i><em style="width:95%"></em></i></div>
+          <div class="skill"><div><b>CSS</b><span>92%</span></div><i><em style="width:92%"></em></i></div>
+          <div class="skill"><div><b>JAVASCRIPT</b><span>90%</span></div><i><em style="width:90%"></em></i></div>
+          <div class="skill"><div><b>REACT</b><span>85%</span></div><i><em style="width:85%"></em></i></div>
+          <div class="skill"><div><b>NEXT.JS</b><span>82%</span></div><i><em style="width:82%"></em></i></div>
+          <div class="skill"><div><b>NODE.JS</b><span>80%</span></div><i><em style="width:80%"></em></i></div>
+          <div class="skill"><div><b>MONGODB</b><span>78%</span></div><i><em style="width:78%"></em></i></div>
+          <div class="skill"><div><b>SQL</b><span>78%</span></div><i><em style="width:78%"></em></i></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TECH STRIP ================= -->
+    <section class="tech-strip">
+      <div class="container tech-grid">
+        <div><i class="fa-brands fa-html5"></i><span>HTML5</span></div>
+        <div><i class="fa-brands fa-css3-alt"></i><span>CSS3</span></div>
+        <div><i class="fa-brands fa-js"></i><span>JAVASCRIPT</span></div>
+        <div><i class="fa-brands fa-react"></i><span>REACT</span></div>
+        <div><i class="fa-brands fa-node-js"></i><span>NODE.JS</span></div>
+        <div><i class="fa-solid fa-database"></i><span>MONGODB / SQL</span></div>
+      </div>
+    </section>
+
+    <!-- ================= FAQ ================= -->
+    <section class="section faq">
+      <div class="container narrow">
+        <div class="center-heading reveal">
+          <p class="eyebrow">FAQ</p>
+          <h2>HAVE ANY <span>QUESTIONS?</span></h2>
+        </div>
+
+        <div class="faq-list">
+          <div class="faq-item active reveal">
+            <button>Q1. What services do you offer?<i class="fa-solid fa-plus"></i></button>
+            <div class="faq-answer">
+              I offer responsive web development, frontend development, React/Next.js development,
+              Node.js backend development, database integration and landing-page development.
+            </div>
+          </div>
+          <div class="faq-item reveal">
+            <button>Q2. What is your payment terms?<i class="fa-solid fa-plus"></i></button>
+            <div class="faq-answer">Project terms and payment milestones can be discussed according to the scope of work.</div>
+          </div>
+          <div class="faq-item reveal">
+            <button>Q3. How can I get started?<i class="fa-solid fa-plus"></i></button>
+            <div class="faq-answer">Send your project details through the contact form and I will review the requirements.</div>
+          </div>
+          <div class="faq-item reveal">
+            <button>Q4. What tools and technologies do you use?<i class="fa-solid fa-plus"></i></button>
+            <div class="faq-answer">HTML, CSS, JavaScript, React, Next.js, Node.js, MongoDB and SQL are part of my current stack.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ARTICLES ================= -->
+    <section class="section articles">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">LATEST ARTICLES</p>
+            <h2>CHECK OUT MY <span>ARTICLES</span></h2>
+          </div>
+          <a href="#contact" class="btn btn-outline">VIEW ALL <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="article-grid">
+          <article class="article-card reveal">
+            <div class="article-image">WEB <strong>DEV</strong></div>
+            <div class="article-body">
+              <small><i class="fa-regular fa-calendar"></i> WEB DEVELOPMENT</small>
+              <h3>The Right Way to Build a Responsive Website</h3>
+              <a href="#contact">READ ARTICLE <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="article-card reveal">
+            <div class="article-image">UI <strong>UX</strong></div>
+            <div class="article-body">
+              <small><i class="fa-regular fa-calendar"></i> DESIGN</small>
+              <h3>How Simple Interfaces Improve User Experience</h3>
+              <a href="#contact">READ ARTICLE <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="article-card reveal">
+            <div class="article-image">CODE <strong>101</strong></div>
+            <div class="article-body">
+              <small><i class="fa-regular fa-calendar"></i> PROGRAMMING</small>
+              <h3>Five Habits for Writing Better Web Code</h3>
+              <a href="#contact">READ ARTICLE <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">CONTACT ME</p>
+            <h2>GET IN TOUCH <span>NOW</span></h2>
+          </div>
+          <p class="heading-note">Have a project idea? Let's turn it into a clean and functional digital experience.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <div class="contact-item">
+              <span><i class="fa-solid fa-phone"></i></span>
+              <div><small>PHONE</small><a href="tel:+923001234567">+92 300 1234567</a></div>
+            </div>
+            <div class="contact-item">
+              <span><i class="fa-solid fa-envelope"></i></span>
+              <div><small>EMAIL</small><a href="mailto:hizamali.dev@example.com">hizamali.dev@example.com</a></div>
+            </div>
+            <div class="contact-item">
+              <span><i class="fa-solid fa-location-dot"></i></span>
+              <div><small>LOCATION</small><p>Pakistan</p></div>
+            </div>
+          </div>
+
+          <form class="contact-form reveal" id="contactForm">
+            <div class="form-row">
+              <input type="text" name="name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-row">
+              <input type="text" name="subject" placeholder="Subject">
+              <input type="text" name="service" placeholder="Select Service">
+            </div>
+            <textarea name="message" rows="6" placeholder="Your Message..." required></textarea>
+            <button class="btn btn-red" type="submit">SEND MESSAGE <i class="fa-solid fa-paper-plane"></i></button>
+            <p class="form-status" id="formStatus"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SOCIAL ================= -->
+    <section class="section social">
+      <div class="container">
+        <div class="center-heading reveal">
+          <p class="eyebrow">SOCIAL</p>
+          <h2>FOLLOW <span>US</span></h2>
+        </div>
+
+        <div class="social-grid">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="logo" href="#top"><span>HA</span> MY STORY</a>
+        <p>Full Stack Developer creating responsive, modern and practical digital experiences.</p>
+      </div>
+      <div>
+        <small>CONTACT</small>
+        <a href="tel:+923001234567">+92 300 1234567</a>
+        <a href="mailto:hizamali.dev@example.com">hizamali.dev@example.com</a>
+      </div>
+      <div>
+        <small>QUICK LINKS</small>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <div class="copyright">© <span id="year"></span> Hizam Ali. All Rights Reserved.</div>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <div class="search-overlay" id="searchOverlay">
+    <button id="closeSearch" aria-label="Close search"><i class="fa-solid fa-xmark"></i></button>
+    <div class="search-box">
+      <p>SEARCH</p>
+      <input id="searchInput" type="search" placeholder="Type something..." autofocus>
+      <small>Try: portfolio, services, skills, contact</small>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
